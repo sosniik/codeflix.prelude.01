@@ -1,10 +1,6 @@
 function isBlank(str = '') {
-
-  // console.log(str.length)
-    for(i = 0; i <str.length; i++) {
-        if(str[i] === ' ') {
-            return true 
-        } else {
+    for(let i = 0; i < str.length; i++) {
+        if (str[i] !== ' ') {
             return false
         }
     } 
