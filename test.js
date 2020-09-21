@@ -1,5 +1,5 @@
 var myString = "El Drago";
-var splits = myString.split(" ", 2);
+var splits = myString.split(" ",);
 
 
 

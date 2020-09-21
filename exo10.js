@@ -1,4 +1,4 @@
-function first(str= '', len=3) { 
+function first(str= '', len=1) { 
     const sentence =''
 
     
